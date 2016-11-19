@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<link rel="stylesheet" href="mystyle.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.sidenav a,.sidenav h4 {padding: 12px;}
+.navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+article {
+    padding: 1em;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+</style>
+<body>
+
+<div class="top">
+  <ul class="navbar theme top left-align large">
+    <li class="opennav right hide-large">
+      <a class="hover-white large theme-l1" href="javascript:void(0)" onclick="open()"><i class="fa fa-bars"></i></a>
+    </li>
+    <li><a href="#" class="theme-l1">School Content Hub</a></li>
+    <li class="hide-small"><a href="About.html" class="hover-white">About</a></li>
+
+   
+  </ul>
+</div>
+
+<nav class="sidenav collapse theme-l5 animate-left" style="z-index:3;width:250px;margin-top:51px;" id="mySidenav">
+  <a href="javascript:void(0)" onclick="close()" class="right xlarge padding-large hover-black hide-large" title="close menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4><b>Subjects</b></h4>
+  <a href="Math.html" class="hover-black">Math</a>
+  <a href="Science.html" class="hover-black">Science</a>
+  <a href="English.html" class="hover-black">English</a>
+  <a href="Arts.html" class="hover-black">Art</a>
+  <a href="History.html" class="hover-black">History</a>
+  <a href="Request.html" class="hover-black">Upload</a>
+</nav>
+
+<div class="overlay hide-large" onclick="close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<div class="main" style="margin-left:550px">
+  <div class="row padding-64">
+    <div class="twothird container">
+    <article>
+    <h6><b>This is our History Collection</b></h6>
+      <p>stuffs to put here
+      </p>
+    </article>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
